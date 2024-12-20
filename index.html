@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestione Inventari</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Gestione degli Inventari</h1>
+    </header>
+    <main>
+        <section id="dashboard">
+            <h2>Dashboard</h2>
+            <div id="alerts"></div>
+            <table id="inventory">
+                <thead>
+                    <tr>
+                        <th>Nome</th>
+                        <th>Descrizione</th>
+                        <th>Quantità</th>
+                        <th>Prezzo</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Righe generate dinamicamente -->
+                </tbody>
+            </table>
+            <a href="generateTXT.php" class="generate-txt">Genera File TXT</a>
+            <!-- Link per aggiungere un prodotto -->
+            <a href="form.html"><button>Aggiungi Prodotto</button></a>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
